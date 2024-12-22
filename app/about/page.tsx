@@ -8,24 +8,29 @@ const contact: React.FC = () => {
             <Navbar />
             <article className="max-w-auto border shadow-lg shadow-gray-600 border-black py-24 px-10 mx-10 space-y-12 dark:bg-gray-100 dark:text-gray-900">
                 <div className="w-full mx-auto space-y-4 text-center">
-                    <p className="text-xs font-semibold tracking-wider uppercase">#TailwindCSS</p>
-                    <h1 className="text-4xl font-bold leading-tight md:text-5xl">Interdum et malesuada fames ac ante ipsum primis in faucibus?</h1>
-                    <p className="text-sm dark:text-gray-600">by
-                        <a rel="noopener noreferrer" href="#" target="_blank" className="underline dark:text-purple-600">
-                            <span itemProp="name">Leroy Jenkins</span>
-                        </a>on
-                        <time dateTime="2021-02-12 15:34:18-0200">Feb 12th 2021</time>
-                    </p>
+                    <p className="text-xs font-bold tracking-wider uppercase">About Us</p>
+                    <h1 className="text-4xl font-bold leading-tight md:text-5xl">lorem ipsum dolor sit amet</h1>
+                    <div className="text-sm dark:text-gray-600">
+                        by
+                        <span className="underline dark:text-purple-600 mx-1">
+                            <span itemProp="name">Daeyan Siddiqui</span>
+                        </span>
+                        on
+                        <time dateTime="2021-02-12 15:34:18-0200" className="ml-1">Dec 32th 2024</time>
+                    </div>
                 </div>
                 <div className="dark:text-gray-800">
-                    <p>Insert the actual text content here...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam possimus veritatis ab placeat, doloribus voluptatum molestiae assumenda adipisci suscipit pariatur eius unde tempora accusantium minima quas debitis! Sapiente, similique.
+                    Nulla distinctio fugiat numquam dolor rerum velit pariatur, cupiditate nobis nostrum magnam fuga atque consequatur officia tempore voluptas culpa cum in quos voluptate maiores officiis quas similique unde. Quaerat, asperiores.
+                    Deleniti, nostrum unde, ex sit quas dicta inventore alias, quia exercitationem magnam pariatur veniam possimus. Obcaecati voluptatum id, enim laborum amet rerum autem dicta. Possimus quibusdam vel molestiae reprehenderit vero.</p>
                 </div>
                 <div className="pt-12 border-t dark:border-gray-300">
                     <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
-                        <img src="https://source.unsplash.com/75x75/?portrait" alt="" className="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-300" />
+
                         <div className="flex flex-col">
-                            <h4 className="text-lg font-semibold">Leroy Jenkins</h4>
-                            <p className="dark:text-gray-600">Sed non nibh iaculis, posuere diam vitae, consectetur neque. Integer velit ligula, semper sed nisl in, cursus commodo elit. Pellentesque sit amet mi luctus ligula euismod lobortis ultricies et nibh.</p>
+                            <h4 className="text-lg font-semibold">Daeyan Siddiqui</h4>
+                            <p className="dark:text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit nesciunt optio, assumenda quae voluptas similique quisquam ducimus molestiae quod nulla itaque, id quibusdam dolore debitis fugiat totam error aliquid.
+                            Dolore sunt asperiores odio porro nihil iure aspernatur saepe quo. Dolorem aut tempora debitis eos nobis voluptas porro, possimus corrupti, aperiam excepturi corporis. Tempora exercitationem molestiae voluptatum repellat culpa necessitatibus.</p>
                         </div>
                     </div>
                     <div className="flex justify-center pt-4 space-x-4 align-center">

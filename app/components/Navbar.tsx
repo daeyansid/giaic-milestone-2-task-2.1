@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Navbar: React.FC = () => {
     return (
@@ -6,40 +7,36 @@ const Navbar: React.FC = () => {
             <div className="container flex justify-between h-16 mx-auto">
                 <ul className="items-stretch hidden space-x-3 lg:flex">
                     <li className="flex">
-                        <a
-                            rel="noopener noreferrer"
+                        <Link
                             href="/"
                             className="flex items-center px-4 -mb-1 border-b-2 dark:border-purple-600 dark:text-purple-600"
                         >
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li className="flex">
-                        <a
-                            rel="noopener noreferrer"
+                        <Link
                             href="/about"
                             className="flex items-center px-4 -mb-1 border-b-2 dark:border-"
                         >
                             about
-                        </a>
+                        </Link>
                     </li>
                     <li className="flex">
-                        <a
-                            rel="noopener noreferrer"
+                        <Link
                             href="/contact"
                             className="flex items-center px-4 -mb-1 border-b-2 dark:border-"
                         >
                             Contact
-                        </a>
+                        </Link>
                     </li>
                 </ul>
-                <a
-                    rel="noopener noreferrer"
-                    href="#"
+                <Link
+                    href="/"
                     aria-label="Back to homepage"
                     className="flex items-center p-2"
                 >
-                </a>
+                </Link>
                 <div className="flex items-center md:space-x-4">
                     <div className="relative">
                         <span className="absolute inset-y-0 left-0 flex items-center pl-2">
